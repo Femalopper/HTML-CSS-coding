@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Rubik-B";
+  src: url("fonts/Rubikbold.woff2");
+}
+@font-face {
+  font-family: "Rubik-R";
+  src: url("fonts/Rubik.woff2");
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+  line-height: 1;
+  font-family: "Rubik-R";
+  font-size: 16px;
+  background-color: #e5e5e5;
+}
+
+.calendar {
+  width: 250px;
+  padding: 60px 60px 30px 60px;
+  background-color: #1e1f25;
+  border-radius: 12px;
+}
+.calendar-header {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-family: "Rubik-B";
+  text-align: center;
+}
+.calendar-date {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  line-height: 2;
+  border-bottom: 1px solid #313131;
+}
+.calendar-todo {
+  align-items: none;
+  justify-content: none;
+  text-align: left;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+}
+
+tr td {
+  color: #ccc;
+  text-align: center;
+  padding: 0;
+  line-height: 2.3;
+}
+.rounded-green {
+  background-color: #589c5f;
+}
+.todo-name {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.todo-time {
+  color: #ccc;
+  font-size: 10px;
+}
