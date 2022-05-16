@@ -4,4 +4,4 @@
 
 The example of creating own checkbox with a unique design.
 
-![Alt text](https://github.com/Femalopper/HTML-CSS-coding/blob/main/Stylish%20checkbox/Screenshots/Stylish%20checkbox.gif)
+![Alt text](https://github.com/Femalopper/HTML-CSS-coding/blob/main/stylish%20checkbox/screenshots/Stylish%20checkbox.gif)
